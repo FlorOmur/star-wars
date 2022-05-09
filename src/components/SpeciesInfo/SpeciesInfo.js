@@ -15,7 +15,7 @@ const SpeciesInfo = () => {
         setSpecies(res.data)
         setIsLoading(false)
       })
-  }, [])
+  })
 
   if (isLoading) {
     return <Spinner/>

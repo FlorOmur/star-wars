@@ -15,7 +15,7 @@ const FilmInfo = () => {
         setFilm(res.data)
         setIsLoading(false)
       })
-  },[])
+  })
 
   if (isLoading){
     return <Spinner />

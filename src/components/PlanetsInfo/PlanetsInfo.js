@@ -16,7 +16,7 @@ const PlanetsInfo = () => {
         setIsLoading(false)
         setPlanets(res.data)
       })
-  },[])
+  })
 
   if (isLoading){
     return <Spinner/>
