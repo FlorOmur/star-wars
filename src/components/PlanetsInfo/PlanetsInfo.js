@@ -26,7 +26,7 @@ const PlanetsInfo = () => {
     <div className="row">
       <div className="col-4">
         <img src={`https://starwars-visualguide.com/assets/img/planets/${planet}.jpg`}
-             className="element-img"/>
+             className="element-img" alt="img"/>
       </div>
       <div className="col-8">
         <ul>

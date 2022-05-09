@@ -28,7 +28,7 @@ const Films = () => {
             <div className="element-item">
               <Link to={`/films/${index+1}`}>
                 <img src={`https://starwars-visualguide.com/assets/img/films/${index+1}.jpg`}
-                     className="element-img"/>
+                     className="element-img" alt="img"/>
                 <h4>{film.title}</h4>
               </Link>
             </div>

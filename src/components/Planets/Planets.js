@@ -41,7 +41,7 @@ const Planets = () => {
               <div className="element-item">
                 <Link to={`/planets/${10 * +page + index+1}`}>
                   <img src={`https://starwars-visualguide.com/assets/img/planets/${10 * page + index+1}.jpg`}
-                       className="element-img"/>
+                       className="element-img" alt="img"/>
                   <h4>{planet.name}</h4>
                 </Link>
               </div>

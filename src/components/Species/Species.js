@@ -41,7 +41,7 @@ const Species = () => {
               <div className="element-item">
                 <Link to={`/species/${10 * +page + index+1}`}>
                   <img src={`https://starwars-visualguide.com/assets/img/species/${10 * page + index+1}.jpg`}
-                       className="element-img"/>
+                       className="element-img" alt="img"/>
                   <h2>{view.name}</h2>
                 </Link>
               </div>

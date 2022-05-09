@@ -40,7 +40,7 @@ const StarShips = () => {
              <div className="element-item">
                <Link to={`/starships/${10 * +page + index+1}`}>
                  <img src={`https://starwars-visualguide.com/assets/img/starships/${10 * page + index+1}.jpg`}
-                      className="element-img"/>
+                      className="element-img" alt="img"/>
                  <h4>{ship.name}</h4>
                </Link>
              </div>
